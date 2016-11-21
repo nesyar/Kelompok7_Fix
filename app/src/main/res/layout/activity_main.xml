@@ -10,36 +10,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xiirpl57172737.story.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+    <ToggleButton
+        android:id="@+id/toogleButton1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="55dp"
-        android:text="Button" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/appbar_padding_top"
-        android:text="STORY"
-        android:textColor="@android:color/black"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="37dp"
-        android:elevation="4dp"
-        android:scaleType="centerInside"
-        tools:src="@drawable/a" />
+        android:layout_marginBottom="342dp"
+        android:background="@drawable/check_toggle"
+        android:src="@drawable/logo"
+        android:textOff=""
+        android:textOn="" />
+
+    <ToggleButton
+        android:id="@+id/toogleButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="342dp"
+        android:background="@drawable/text_2"
+        android:src="@drawable/logo"
+        android:textOff=""
+        android:textOn="" />
 </RelativeLayout>
