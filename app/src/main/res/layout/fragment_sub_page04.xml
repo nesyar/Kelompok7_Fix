@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba"
+    tools:context="layout.SubPage04">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text=" ‘’Plak!’’ kini kedua kakinya menempel erat pada baju orang-orangan itu.
+
+Pelekat yang di pasang Pak Petani di baju orang-orangan itu sangat kuat. Kancil tak bisa melepaskan diri. Sekuat tenaga ia berusaha tetapi tidak berhasil. Semalaman Kancil menangis.
+
+Pagi harinya Pak Tani datang.
+
+‘’Ku tangkap kau Kancil. Dasar biang kerok. Kau boleh mengambil makan timunku Cil. Tapi tidak untuk merusak buah yang lain.’’
+
+‘’Ampun Pak Tani. Bukan aku yang merusak timunmu, aku hanya makan 2-3 buah timun. Dan perutku sudah merasa sangat kenyang.
+
+Pak Tani tidak percaya dengan perkataan si Kancil. Leher si Kancil di ikat dan di seret Pak Tani ke rumahnya."
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

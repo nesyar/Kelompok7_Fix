@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba"
+    tools:context="layout.SubPage03">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="  ‘’Haha.. hanya orang-orangan, siapa takut?’’
+        Kancil hanya melewati orang-orangan itu. Ia memakan timun yang muda-muda. Ternyata tak banyak yang di makan si Kancil. Hanya 3 buah timun ia sudah merasa kenyang. Ia juga tidak merusak timun yang lainnya.
+
+Setelah makan timun. Kancil menghampiri orang-orangan yang dibuat Pak Tani, dan sifat jail si Kancil. Ia pukul orang-orangan itu dengan kaki depannya.
+
+‘’Aduh… kenapa melekat seperti ini? Kaki ku tidak dapat di gerakkan!’’ Kancil sangat kaget.!
+
+‘’Hei orang-orangan jelek. Lepaskan kakiku. Kalau tidak, akan kupukul lagi kau!’’
+
+Kancil memukul orang-orangan itu dengan kaki yang satu lagi.
+
+"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

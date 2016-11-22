@@ -1,8 +1,6 @@
 package id.sch.smktelkom_mlg.project.xiirpl57172737.story;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -52,14 +50,7 @@ public class IsiActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
     }
 
@@ -114,10 +105,44 @@ public class IsiActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_isi3, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page01, container, false);
+
             return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page02, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 3) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page03, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 4) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page04, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 5) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page05, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 6) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page06, container, false);
+
+                return rootView;
+            } else {
+
+                View rootView = inflater.inflate(R.layout.fragment_isi3, container, false);
+                TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+                textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+                return rootView;
+            }
         }
     }
 
@@ -153,6 +178,12 @@ public class IsiActivity extends AppCompatActivity {
                     return "Halaman 2";
                 case 2:
                     return "Halaman 3";
+                case 3:
+                    return "Halaman 4";
+                case 4:
+                    return "Halaman 5";
+                case 5:
+                    return "Halaman 6";
             }
             return null;
         }
