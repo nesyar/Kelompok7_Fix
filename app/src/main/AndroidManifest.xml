@@ -27,6 +27,10 @@
         <activity
             android:name=".Isi3Activity"
             android:label="@string/title_activity_isi3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Isi4Activity"
+            android:label="@string/title_activity_isi4"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
