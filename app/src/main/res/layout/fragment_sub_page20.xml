@@ -1,0 +1,37 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage20">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="      Dengan wajah kesal, Darmi lalu menarik tangan ibunya dan keluar dari warung itu. Pemilik warung hanya bisa melongo. Menurutnya, wajah Darmi dan ibunya sungguh mirip. Hanya saja kulit Darmi Iebih bersih.
+&#xA;
+      ''Bu, aku malu berjalan bersama Ibu. Aku tak mau lagi pergi bersama Ibu,'' kata Darmi kesal. Ibu mulai menangis. Ia sungguh tak menyangka Darmi bersikap seperti itu. ''Ya Tuhan, ampuni anakku. Ia lupa bahwa aku adalah ibu yang mengandung dan membesarkannya. Sadarkan ia dari kesalahannya ini,'' doa Ibu dalam hati. ''Darmi, sejelek apa pun, aku ini tetap ibumu yang mengandung dan membersarkanmu.''
+&#xA;
+      ''Aku tak pernah minta untuk dilahirkan Ibu. Aku ingin Ibu yang cantik, putih, dan juga kaya. Aku juga tak pernah minta Ibu untuk membesarkan aku!'' teriak Darmi. ''Astaga Nak... jaga ucapanmu. Jangan sampai Tuhan marah mendengarmu,'' kata Ibu. ''Biar saja Dia marah. Aku juga marah padaNga karena memberiku Ibu sejelek ini,'' ketus Darmi.
+&#xA;
+      Duerrrrr... tiba-tiba petir menyambar tepat setelah Darmi mengelesaikan ucapannya. Darmi dan ibunya terkejut. Ketakutan, Darmi merapat ke ibunya ''Apa itu tadi, Bu?'' tanyanya. Ibu tak menjawab. Dalam hati ia bertanya ''Apakah Tuhan marah mendengar perkataan Darmi tadi?'' Tiba-tiba langit berubah menjadi hitam.
+&#xA;"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

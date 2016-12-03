@@ -1,0 +1,36 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage13">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="     'Angsa itu benar-benar hebat,'' batin petani.'' ''Ia bisa mengeluarkan dua telur emas setiap hari. Aku ingin cepat kaya. Aku tidak ingin menunggu besok. Aku akan menyembelih angsa itu dan mengambil seluruh emas yang ada dalam tubuhnya.''
+&#xA;
+        Si petani benar-benar melaksanakan rencananya itu. Ia menyembelih si angsa tanpa berpikir panjang. Sayang sekali, ambisinya tidak terwujud. Di dalam tubuh angsa itu rupanya tidak ada emas sama sekali.
+&#xA;      ''Ke mana emasnya?'' seru si petani, panik. Ia memeriksa sekali Iagi tubuh angsa yang sudah disembelih. Namun, ia sama sekali tidak menemukannya. Kini ia hanya bisa menyesali kebodohan dan keserakahannya sendiri.
+&#xA;
+        ''Seandainya aku bisa bersabar dan tidak serakah, pasti saat ini angsa itu masih terus mengeluarkan telur emas,'' keluh petani. ''Sayang, aku telah bertindak gegabah. Keserakahan telah membutakan pikiranku.''        "
+
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

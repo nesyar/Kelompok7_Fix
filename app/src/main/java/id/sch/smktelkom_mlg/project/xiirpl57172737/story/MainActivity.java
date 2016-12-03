@@ -3,14 +3,23 @@ package id.sch.smktelkom_mlg.project.xiirpl57172737.story;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 import android.view.View;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
-
     public ToggleButton toggleButton1;
     public ToggleButton toggleButton2;
+    public ToggleButton toggleButton3;
+
+    //axel
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_isi, menu);
+        return true;
+    }
 
     public void new3() {
         toggleButton1 = (ToggleButton) findViewById(R.id.toogleButton1);
@@ -33,13 +42,25 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void new4() {
+        toggleButton3 = (ToggleButton) findViewById(R.id.toogleButton3);
+        toggleButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent yuu = new Intent(MainActivity.this, Isi2Activity.class);
+                startActivity(yuu);
+            }
+        });
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        setTitle("StoryBooks");
         new3();
         new1();
+        new4();
+
     }
 }

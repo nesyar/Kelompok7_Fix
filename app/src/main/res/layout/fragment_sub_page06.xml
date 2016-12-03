@@ -1,33 +1,39 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#399aba"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
     tools:context="layout.SubPage06">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="38dp"
-        android:text=" ‘’Katakan ada apa sebenernya Cil?’’
-
-‘’Begini Reng, aku ini akan di jadikan menantu oleh Pak Tani. Mangkannya Pak Tani pergi ke pasar untuk membeli makanan yang lezat-lezat untukku calon menantunya.’’
-
-‘’Hah..? Kamu itu tidak pantas Cil, badan mu kecil. Lebih baik aku saja yang menjadi menantu Pak Tani. Aku sudah bertahun-tahun menjadi peliharaannya’’
-
-‘’Tapi Pak Tani sudah memilih aku Reng. Sudah sana pergilah kau Ireng!’’
-
-Si Ireng tiba-tiba menggerang marah, ‘’Cil, kalau kau tidak mau aku gantikan sekarang juga batu yang ada di atas kurangan itu akan aku dorong dan lehermu akan ku gigit sampai putus.’’
-
-‘’Wah.. Jangan gitu dong !’’
-
-‘’Mau apa tidak?’’"
+        android:text="     ‘’Katakan ada apa sebenernya Cil?’’
+&#xA;
+       ‘’Begini Reng, aku ini akan di jadikan menantu oleh Pak Tani. Mangkannya Pak Tani pergi ke pasar untuk membeli makanan yang lezat-lezat untukku calon menantunya.’’
+&#xA;
+       ‘’Hah..? Kamu itu tidak pantas Cil, badan mu kecil. Lebih baik aku saja yang menjadi menantu Pak Tani. Aku sudah bertahun-tahun menjadi peliharaannya’’
+&#xA;
+       ‘’Tapi Pak Tani sudah memilih aku Reng. Sudah sana pergilah kau Ireng!’’
+&#xA;
+        Si Ireng tiba-tiba menggerang marah, ‘’Cil, kalau kau tidak mau aku gantikan sekarang juga batu yang ada di atas kurangan itu akan aku dorong dan lehermu akan ku gigit sampai putus.’’
+&#xA;
+       ‘’Wah.. Jangan gitu dong !’’
+&#xA;
+       ‘’Mau apa tidak?’’"
         android:textColor="@android:color/white"
         android:textSize="16dp"
         android:textStyle="normal" />
 
-</RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,40 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="layout.SubPage08">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="38dp"
+            android:text="    ‘’Sudah pergi ke hutan Pak Tani !’’
+&#xA;
+        ‘’Kau sungguh-sungguh mau menjadi menantuku?’’
+&#xA;
+       ‘’Benar sekali tuan.’’ jawab Si Ireng dengan gembira.
+&#xA;
+       ‘’Sekarang keluarlah dari kurungan itu, lau duduklah yang manis dan pejamkan mata. Aku akan segera memanggil putriku didalam rumah.’’
+&#xA;
+         Ireng segera menuruti permintaan dari Pak Tani. Dia sangat gembira karena akhirnya dia bisa menjadi keluarga dari Pak Tani.
+&#xA;
+      ‘’Ini hadiah untukmu !’’ teriak Pak Tani memukul kepala dan punggung si Anjing.
+&#xA;
+      ‘’Tungguuuuuu…! Bleg ! bleg !. ampuuuunnn..!’’
+&#xA;
+       Si Ireng menjerit dan melarikkan diri. Dia baru sadar bahwa telah terjebak dalam tipu muslihat si Kancil. "
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

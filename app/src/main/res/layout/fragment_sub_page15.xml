@@ -1,0 +1,37 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage15">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="      ''Hah... bagaimana jika nanti minyaknya kena tanganku? KuIitku yang mulus bisa terluka,'' Darmi menolak.
+&#xA;
+         ''Kau tak akan terpercik minyak jika berhati-hati,'' jawab Ibu sabar.
+&#xA;
+         ''Tidak! Pokoknya Ibu tak boleh berangkat sebelum menggoreng ikan ini!'' teriak Darmi. Akhirnya ibunya terpaksa menuruti keinginan Darmi. Selalu begitu, Darmi tak pernah mau membantu ibunya.
+&#xA;
+           Darmi adalah seorang anak yatim. Sejak ayahnya meninggal, ibunya harus bekerja keras untuk memenuhi kebutuhan hidup mereka. Semua pekerjaan dilakukannya tanpa malu. Tak heran, Ibu tampak lebih tua dari usianya. Kulitnya hitam dan keriput, rambutnya merah terbakar Matahari.
+"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

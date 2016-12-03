@@ -1,0 +1,46 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage09">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Ia sangat marah karena ditipu si Kancil. ‘’ Awas kau Kancil jika nanti ketemu akan ku gigit kau!’’ Ireng yang sangat marah karena di tipu si Kancil. Seluruh badannya masih terasa sakit setelah di pukul Pak Tani. Anjing berlari sangat kencang mengejar si Kancil.
+&#xA;
+
+        &#xA;Kancil sudah mencoba berlari sekencang yang dia bisa. Namun kecepatan si Kancil memang belum bisa dibandingkan dengan Ireng yang merupakan anjing pemburu, maka dalam beberapa saat Si Ireng sudah bisa berada di belakang.
+&#xA;
+
+       &#xA; ‘’Wah gawat. Ireng sudah berada dibelakangku,’’ kata Kancil dalam hati. ’’Aku harus segera bersembunyi.’’"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="-------------TAMAT-------------"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

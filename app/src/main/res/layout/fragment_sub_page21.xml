@@ -1,0 +1,41 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="1"
+        tools:context="layout.SubPage20">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.35"
+            android:text="     Petir terus menyambar-nyambar. Ibu menggandeng Darmi dan berkata, ''Ayo Darmi, cepatlah. Kita harus segera sampai ke rumah. Sepertinya akan ada badai,'' kata Ibu.
+&#xA;
+     Ibu merasa heran, mengapa Darmi tak juga berjalan cepat?
+&#xA;
+     Ia pun menoleh ke belakang.
+&#xA;
+     ''Darmi! Apa yang terjadi pada dirimu?'' teriak Ibu. Tampak olehnya Darmi sedang berdiri ketakutan sambil memandangi kedua kakinya. ''Kakiku Bu... kakiku... kenapa tak bisa digerakkan? Rasanya seperti batu Bu... tolong aku...'' kata Darmi sambil menangis.
+&#xA;
+     Ibu bergegas menghampiri Darmi dan memeriksa kakinya. Ternyata benar, kaki Darmi telah berubah menjadi batu. Ibu pun menangis sejadi-jadinya ''Darmi, rupanya Tuhan marah padamu. Kau telah menghina ibumu dan juga menyalahkan Tuhan. Minta ampun Nak... mintalah ampun...'' ratap Ibu."
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

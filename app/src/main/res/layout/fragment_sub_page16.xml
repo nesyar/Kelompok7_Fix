@@ -1,0 +1,37 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage16">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="     Berbeda dengan Darmi. Darmi memiliki rambut hitam yang lebat dan panjang. Jika ditimpa sinar Matahari, rambutnya berkilauan. Kulitnya putih mulus, dan pipinya bersemu merah. Namun Darmi adalah anak pemalas. Baginya yang paling penting adalah kecantikannya. Ia berharap, suatu saat akan ada pemuda kaya yang meminangnya Ia bosan hidup miskin.
+&#xA;
+       ''Ibuuu... bedakku habis!'' teriak Darmi di suatu pagi. Ibu yang sedang menimba air di sumur segera menghampirinya. ''Kenapa pagi-pagi sudah berteriak-teriak, Nak?''
+&#xA;
+       ''Bedakku habis. Sana Ibu belikan di pasar!'' perintah Darmi.
+&#xA;
+       ''Bedak apa dan di mana membelinya.'' tanya Ibu. ''Aduh... begitu saja tidak tahu? Di toko yang bersebelahan dengan penjual buah Bu,'' jawab Darmi.
+"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,37 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage19">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="     ''Heh, sembarangan saja kau bicara. Ia itu pembantuku, bukan ibuku. Masa kau tak lihat perbedaan warna kulit kami?'' tanya Darmi.
+&#xA;
+     Sekali lagi, hati Ibu sakit mendengar jawaban Darmi itu. Tapi Ibu tetap tersengum dan berkata pada pemilik toko ''Ya, saya memang pembantunya.''
+&#xA;
+     Selesai membeli bedak, Darmi dan ibunya pulang ke rumah. Di perjalanan, mereka merasa haus. Mereka lalu mampir ke warung untuk minum. ''Wah Bu... putri ibu ini benar-benar cantik jelita. Andai saja aku punya anak laki-laki, pasti akan kunikahkan dengan anak ibu,''
+&#xA;
+     Ibu hampir saja menjawab ketika Darmi mendahuluinya ''Pak, aku bukan anak Ibu ini. Ibuku cantik dan putih sepertiku, tidak seperti dia. Dia itu hanya pembantuku,''
+&#xA;"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

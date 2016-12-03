@@ -1,0 +1,39 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage18">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="     ''Siapa yang kau maksud?' tanya Darmi pura-pura tak mengerti.''Oh, wanita tua ini? Ia bukan ibuku, masa Ibuku seperti itu? Ia hanya pembantuku,'' jawab Darmi.
+&#xA;
+     Ibu sungguh terkejut. ''Rupanya ia malu kepadaku,'' kata Ibu dalam hati. Meskipun hatinya sakit, Ibu berusaha tersenyum dan berkata pada si penjual kain
+&#xA;
+     ''Iya, saya memang pembantunya.'' Darmi lalu melambaikan tangan pada penjual kain. Ia berbisik pada ibunya
+&#xA;
+     ''Bagus Bu, tetaplah mengaku sebagai pembantuku.'' Ibu hanya diam dan tak menjawab.
+&#xA;
+    Ketika sedang memilih-milih bedak, tiba-tiba pemilik toko berkata. ''Wah Bu, senang ya punya anak secantik Darmi,''
+    "
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

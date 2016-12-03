@@ -1,0 +1,37 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="layout.SubPage07">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="38dp"
+            android:text="        ‘’Baik-baik aku turuti keinginanmu.’’ Si Ireng mendorong batu hingga terjatuh, kurungan itu terbuka dan Kancil keluar dari kurungannya. Sedangkan Ireng menggantikkan Kancil masuk ke dalam kurungan.
+&#xA;
+         ‘’Selamat Ireng, sebentar lagi kau akan menjadi menantu Pak Tani.’’ Kata Kancil sambil berlari kencang.
+&#xA;
+          Sesaat kemudian Pak Tani datang. Ia sangat kaget melihat Kancil yang berada di kurungan berubah menjadi Ireng anjing peliharannya.
+&#xA;
+        ‘’Hormat saya calon mertua.’’ Kata anjing dengan gembira.
+&#xA;
+        ''Calon Mertua katamu? Hey kamu kemanakan si Kancil.’’ Pak Tani bertanya dengan nada gusar.
+
+"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,30 +1,14 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#399aba">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#399aba"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context="layout.SubPage01">
-
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageView"
-            android:layout_centerHorizontal="true"
-            android:text="  Pagi yang sangat cerah. Matahari bersinar dengan indah. Pak Tani bersiap-siap pergi ke ladang dengan sangat gembira dengan memanggul pacul.
-
-''Aku akan pergi ke ladang untuk memeriksa kebun timunku, mungkin saja besok sudah bisa dipanen.’’
-
-Sesampainya di kebun timun Pak Tani sangat terkejut. Buah timun di kebunnya banyak yang rusak."
-            android:textColor="@android:color/white"
-            android:textSize="16dp"
-            android:textStyle="normal" />
 
         <TextView
             android:id="@+id/textView2"
@@ -32,6 +16,7 @@ Sesampainya di kebun timun Pak Tani sangat terkejut. Buah timun di kebunnya bany
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
             android:text="Si Kancil Mencuri Timun"
             android:textColor="@android:color/white"
             android:textSize="25dp"
@@ -40,13 +25,29 @@ Sesampainya di kebun timun Pak Tani sangat terkejut. Buah timun di kebunnya bany
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textView2"
             android:layout_marginTop="12dp"
             android:src="@drawable/a" />
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="     Pagi yang sangat cerah. Matahari bersinar dengan indah. Pak Tani bersiap-siap pergi ke ladang dengan sangat gembira dengan memanggul pacul.
+&#xA;
+       ''Aku akan pergi ke ladang untuk memeriksa kebun timunku, mungkin saja besok sudah bisa dipanen.’’
+&#xA;
+        Sesampainya di kebun timun Pak Tani sangat terkejut. Buah timun di kebunnya banyak yang rusak."
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
 
-    </RelativeLayout>
-</ScrollView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

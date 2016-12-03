@@ -1,0 +1,41 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="1"
+        tools:context="layout.SubPage11">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="     Keesokan paginya, petani hendak memberi makan si angsa. Betapa kagetnya ia tatkala melihat sebuah telur emas di dekat angsa.
+&#xA;
+Wow, rupanya angsa itu menelurkan emas!
+&#xA;
+''Apakah emas ini asli?'' batin petani, ragu-ragu. Maka setelah memberi angsa makan, ia segera pergi ke tukang emas langganannya, sekadar untuk memastikan keaslian telur emas yang dihasilkan oleh si angsa.
+&#xA;
+        ''Ini emas murni, dan harganya sangat mahal karena ukurannya besar,'' kata si tukang emas sambil mengamati telur emas yang dibawa oleh si petani. Kontan saja si petani melonjak gembira mendengar perkataan si tukang emas. Petani Iangsung menjual telur emas tersebut saat itu juga, dan kemudian membawa pulang uang yang sangat banyak.
+&#xA;
+        Cerita Anak Nusantara Angsa Bertelur Emas
+        "
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

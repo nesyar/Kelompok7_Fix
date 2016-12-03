@@ -5,6 +5,17 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="about us"
         app:showAsAction="never" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This aplication is created by :
+        -   Axel Ferdian Javas (XIIR5/07)
+        -   Fani Ferina Sani   (XIIR5/17)
+        -   Nesya Rogawati     (XIIR5/27)
+        -   Sultan Leosko      (XIIR5/37)
+&#xA;   We are from SMK TELKOM MALANG, this is our project.
+&#xA;   --------------------------------- Thankyou --------------------------------------" />
 </menu>

@@ -1,29 +1,35 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#399aba"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
     tools:context="layout.SubPage02">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="38dp"
-        android:text="  Dengan hati muram Pak Tani pulang ke rumah. Ia menduga-duga hewan apakah yang suka makan mentimun.
-
-‘’Pasti hewan yang merusak dan mencuri kebun mentimun ku adalah si Kancil’’. Gumam Pak Tani.
-
-Pak Tani mencari akal untuk menjebak si Kancil. Pak Tani akhirnya berhasil mencari akal untuk menjebak si Kancil dengan membuat orang-orangan yang di beri pelekat sangat kuat. Menjelang sore orang-orangan itu sudah selesai dibuat dan di bawa ketengah kebun timun untuk di pasang.
-
-‘’ Aku tahu kancil hewan yang sangat cerdik, dia bisa melakukan apa saja untuk mencuri timunku’’.
-
-Ternyata dugaan Pak Petani benar, malam harinya Kancil datang untuk mengambil mentimun. Kancil tertawa melihat orang-orangan yang di buat Pak Tani."
+        android:text="     Dengan hati muram Pak Tani pulang ke rumah. Ia menduga-duga hewan apakah yang suka makan mentimun.
+&#xA;
+    ‘’Pasti hewan yang merusak dan mencuri kebun mentimun ku adalah si Kancil’’. Gumam Pak Tani.
+&#xA;
+     Pak Tani mencari akal untuk menjebak si Kancil. Pak Tani akhirnya berhasil mencari akal untuk menjebak si Kancil dengan membuat orang-orangan yang di beri pelekat sangat kuat. Menjelang sore orang-orangan itu sudah selesai dibuat dan di bawa ketengah kebun timun untuk di pasang.
+&#xA;
+   ‘’Aku tahu kancil hewan yang sangat cerdik, dia bisa melakukan apa saja untuk mencuri timunku’’.
+&#xA;
+    Ternyata dugaan Pak Petani benar, malam harinya Kancil datang untuk mengambil mentimun. Kancil tertawa melihat orang-orangan yang di buat Pak Tani."
         android:textColor="@android:color/white"
         android:textSize="16dp"
         android:textStyle="normal" />
 
-</RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

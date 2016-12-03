@@ -1,0 +1,61 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="1"
+        tools:context="layout.SubPage14">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Batu Menangis"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1.22"
+            android:src="@drawable/d" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="  ''Tralala... trilili...'' senandung Darmi pelan sambil menyisir rambutnya.
+&#xA;
+    Selesai menyisir, ia memoleskan bedak ke wajahnya. ''Hmm... tak ada seorang pun yang bisa mengalahkan kecantikanku,'' katanya sambil mematut diri di depan cermin. ''Darmi... bantu Ibu, Nak,'' kata ibunya tiba- tiba.
+&#xA;
+    ''Aku sedang sibuk, Bu!'' jawab Darmi ketus.
+&#xA;
+    ''Nak, Ibu harus berangkat ke ladang. Tolong gorenglah ikan ini,'' jawab Ibu.
+&#xA;
+"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

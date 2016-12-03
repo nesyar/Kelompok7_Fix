@@ -1,0 +1,38 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage17">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="      ''Penjual buah di pasar, kan banyak? Penjual buah yang mana?'' tanya Ibu tak mengerti. ''Aduuhhh!! Ya sudah, ayo aku tunjukkan. Diingat-ingat ya Bu letak tokonya, jadi jika aku suruh lain kali, Ibu sudah tahu.''
+&#xA;
+      Hari itu pasar ramai sekali. ''Awas... Bu... minggir sedikit,'' bisik Darmi tiba-tiba.
+&#xA;
+     ''Apa? Ibu tak dengar Nak,'' jawab Ibu.''Minggir! Jangan dekat- dekat aku. Ibu jalan di belakangku saja. Aku tak mau orang-orang melihatku berjalan bersama Ibu,'' ketus Darmi.
+&#xA;
+      Ibu terkejut. Hatinya sakit mendengar perkataan Darmi. Namun ia kemudian melihat dirinya sendiri. ''Astaga, memang bajuku jelek dan kusam. Aku juga belum mandi, pantas saja Darmi tak mau dekat denganku,'' batin Ibu. Akhirnya Ibu pun mengalah. Ia berjalan di belakang Darmi.
+&#xA;
+      Tiba-tiba terdengar teriakan, ''Hei Darmi... kau mau ke mana? Wah, lama sekali tak berjumpa denganmu.'' Darmi menoleh. Ternyata itu suara penjual kain langganannya. ''Aku hendak membeli bedak. Sekalian mau membeli sabun.'' jawab Darmi riang. ''Oh, tumben kau diantar oleh ibumu?'' tanya si penjual kain lagi."
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

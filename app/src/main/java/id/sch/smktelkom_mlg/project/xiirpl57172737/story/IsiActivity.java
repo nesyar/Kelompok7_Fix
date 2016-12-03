@@ -9,7 +9,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +35,7 @@ public class IsiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi);
+        setTitle("Kancil Mencuri Mentimun");
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -49,30 +49,30 @@ public class IsiActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
-
+//niko
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_isi, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+//niko
+        /*int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-        }
+        }*/
 
         return super.onOptionsItemSelected(item);
     }
@@ -102,6 +102,7 @@ public class IsiActivity extends AppCompatActivity {
             return fragment;
         }
 
+        //fani
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
@@ -136,6 +137,21 @@ public class IsiActivity extends AppCompatActivity {
                 View rootView = inflater.inflate(R.layout.fragment_sub_page06, container, false);
 
                 return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 7) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page07, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 8) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page08, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 9) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page09, container, false);
+
+                return rootView;
             } else {
 
                 View rootView = inflater.inflate(R.layout.fragment_isi3, container, false);
@@ -166,24 +182,30 @@ public class IsiActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 9;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Halaman 1";
+                    return "1";
                 case 1:
-                    return "Halaman 2";
+                    return "2";
                 case 2:
-                    return "Halaman 3";
+                    return "3";
                 case 3:
-                    return "Halaman 4";
+                    return "4";
                 case 4:
-                    return "Halaman 5";
+                    return "5";
                 case 5:
-                    return "Halaman 6";
+                    return "6";
+                case 6:
+                    return "7";
+                case 7:
+                    return "8";
+                case 8:
+                    return "9";
             }
             return null;
         }

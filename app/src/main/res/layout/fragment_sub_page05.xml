@@ -1,31 +1,37 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#399aba"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
     tools:context="layout.SubPage05">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="38dp"
-        android:text=" Sesampainya di rumah Pak Tani, Kancil langsung diletakkan di dalam kurungan ayam.
-
-‘’Kancil . Batu ini sangat kuat. Kau tak dapat meloloskan diri dari sini. Aku akan pergi sebentar ke pasar untuk membeli bumbu sate.’’
-
-‘’Ampunilah aku Pak Tani, jangan sate aku. Dagingku pahit dan tidak enak.” Si Kancil merengek meminta ampun.
-
-Pada saat Pak Tani pergi ke pasar untuk membeli bumbu sate, ada seekor anjing yang merupakan peliharaan Pak Tani datang menghampiri kurungan si Kancil. Anjing hitam itu bernama Ireng.
-
-‘’Kenapa kau di kurung?’’ Tanya si Ireng.
-
-‘’Apa kau tak tau Reng?’’ Kancil membalas pertanyaan Si Ireng Anjing milik Pak Tani."
+        android:text="        Sesampainya di rumah Pak Tani, Kancil langsung diletakkan di dalam kurungan ayam.
+&#xA;
+       ‘’Kancil . Batu ini sangat kuat. Kau tak dapat meloloskan diri dari sini. Aku akan pergi sebentar ke pasar untuk membeli bumbu sate.’’
+&#xA;
+       ‘’Ampunilah aku Pak Tani, jangan sate aku. Dagingku pahit dan tidak enak.” Si Kancil merengek meminta ampun.
+&#xA;
+        Pada saat Pak Tani pergi ke pasar untuk membeli bumbu sate, ada seekor anjing yang merupakan peliharaan Pak Tani datang menghampiri kurungan si Kancil. Anjing hitam itu bernama Ireng.
+&#xA;
+      ‘’Kenapa kau di kurung?’’ Tanya si Ireng.
+&#xA;
+      ‘’Apa kau tak tau Reng?’’ Kancil membalas pertanyaan Si Ireng Anjing milik Pak Tani."
         android:textColor="@android:color/white"
         android:textSize="16dp"
         android:textStyle="normal" />
 
-</RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

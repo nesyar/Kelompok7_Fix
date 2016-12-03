@@ -1,0 +1,55 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#399aba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="layout.SubPage10">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Angsa Bertelur Emas"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1.83"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="             Seorang petani sedang berjalan pulang pada sore hari setelah beraktivitas di kebunnya. Ia bersiul-siul dengan riang. Entah kenapa ia begitu senang, ia sendiri pun tidak tahu. Ia seperti merasa keberuntungan akan menghampirinya pada sore itu.
+&#xA;
+             Dalam perjalanan, tiba-tiba ia melihat seekor angsa yang tampak Ielah. Petani menangkap angsa itu dengan hati-hati, lalu membawanya pulang. Sesampainya di rumah, ia Iangsung memberi makan angsa itu dalam jumlah yang cukup banyak. Rupanya si angsa benar-benar lapar. Ia menyantap habis semua makanan itu. Kemudian pak tani menaruhnya di belakang rumah. Malam itu si angsa tidur dengan nyaman di sana.
+"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
