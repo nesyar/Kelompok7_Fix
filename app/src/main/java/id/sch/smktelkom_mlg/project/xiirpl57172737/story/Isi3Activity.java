@@ -114,12 +114,67 @@ public class Isi3Activity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
 
-            View rootView = inflater.inflate(R.layout.fragment_isi4, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
-            return rootView;
+                View rootView = inflater.inflate(R.layout.fragment_sub_page14, container, false);
 
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page15, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 3) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page16, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 4) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page17, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 5) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page18, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 6) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page19, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 7) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page20, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 8) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page21, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 9) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page22, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 10) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page23, container, false);
+
+                return rootView;
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 11) {
+
+                View rootView = inflater.inflate(R.layout.fragment_sub_page24, container, false);
+
+                return rootView;
+            } else {
+                View rootView = inflater.inflate(R.layout.fragment_isi4, container, false);
+                TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+                textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+                return rootView;
+            }
         }
     }
 
