@@ -116,37 +116,37 @@ public class Isi4Activity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page14, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page25, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page15, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page26, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 3) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page16, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page27, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 4) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page17, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page28, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 5) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page18, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page29, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 6) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page19, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page30, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 7) {
 
-                View rootView = inflater.inflate(R.layout.fragment_sub_page20, container, false);
+                View rootView = inflater.inflate(R.layout.fragment_sub_page31, container, false);
 
                 return rootView;
             } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 8) {
@@ -198,18 +198,26 @@ public class Isi4Activity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 6;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "1";
                 case 1:
-                    return "SECTION 2";
+                    return "2";
                 case 2:
-                    return "SECTION 3";
+                    return "3";
+                case 3:
+                    return "4";
+                case 4:
+                    return "5";
+                case 5:
+                    return "6";
+                case 6:
+                    return "7";
             }
             return null;
         }

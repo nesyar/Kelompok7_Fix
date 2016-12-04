@@ -50,4 +50,18 @@
         android:src="@drawable/logo"
         android:textOff=""
         android:textOn="" />
+
+    <ToggleButton
+        android:id="@+id/toogleButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/toogleButton2"
+        android:layout_alignStart="@+id/toogleButton2"
+        android:layout_alignTop="@+id/toogleButton3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/text_2"
+        android:src="@drawable/logo"
+        android:textOff=""
+        android:textOn="" />
 </RelativeLayout>

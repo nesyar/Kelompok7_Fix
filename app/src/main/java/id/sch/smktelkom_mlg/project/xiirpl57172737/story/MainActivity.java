@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     public ToggleButton toggleButton1;
     public ToggleButton toggleButton2;
     public ToggleButton toggleButton3;
+    public ToggleButton toggleButton4;
 
     //axel
     @Override
@@ -53,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void new5() {
+        toggleButton4 = (ToggleButton) findViewById(R.id.toogleButton1);
+        toggleButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent y = new Intent(MainActivity.this, Isi4Activity.class);
+                startActivity(y);
+            }
+        });
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         new3();
         new1();
         new4();
+        new5();
 
     }
 }
