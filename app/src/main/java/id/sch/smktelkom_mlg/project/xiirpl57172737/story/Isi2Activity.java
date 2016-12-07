@@ -49,6 +49,7 @@ public class Isi2Activity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
     }
@@ -59,6 +60,7 @@ public class Isi2Activity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_isi2, menu);
         return true;
+
     }
 
     @Override
@@ -66,12 +68,16 @@ public class Isi2Activity extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        // int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
             return true;
         }
+        //noinspection SimplifiableIfStatement
+        // if (id == R.id.action_settings) {
+        //return true;
+        // }
 
         return super.onOptionsItemSelected(item);
     }

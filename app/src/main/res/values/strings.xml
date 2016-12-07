@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Story</string>
+    <string name="app_name">Cerita Anak</string>
     <string name="title_activity_isi">IsiActivity</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">AboutUs</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_isi2">Isi2Activity</string>
 
